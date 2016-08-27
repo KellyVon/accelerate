@@ -11,6 +11,7 @@
 */
 @import url("../accelerate-theme/style.css");
 
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -23,27 +24,125 @@
     background: #45ac9d  none repeat scroll 0px 0px;
 }
 
+#masthead nav {
+  margin-top: -25px;
+  padding: 0px;
+}
+
+#masthead nav ul li {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
 .blog-post {
   width: 50%;
 }
 
 .blog-post h4 {
   font-size: 16px;
-  font-family:  'Monteserrat';
+  font-family:  'Monteserrat', sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
+  padding-top: 25px;
 }
 
 .blog-post h2 {
   font-size: 24px;
-  font-family: 'Monteserrat';
+  font-family:  'Monteserrat', sans-serif;
   font-weight: bold;
 }
 
 .blog-post .read-more-link {
-  font-size: 24px;
-  font-family: 'Montserrat';
+  font-size: 18px;
+  font-family:  'Monteserrat', sans-serif;
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+/*Case Studies */
+aside.case-study-sidebar {
+  float: left;
+  width: 315px;
+  margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h2 {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  }
+
+aside.case-study-sidebar  h5 {
+  color: #878787;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  line-height: 28px;
+}
+
+aside.case-study-sidebar p {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16.5px;
+}
+
+aside.case-study-sidebar p a {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+aside.case-study-sidebar p a:hover {
+  color: #45ac9d;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+div.case-study-images {
+  float: left;
+  width: 605px;
+}
+
+div.case-study-images img {
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+  /*Case Studies Homepage*/
+
+  .featured-work h4 {
+    color: #3b3b3b;
+    font-family:  'Monteserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+  }
+
+  .featured-work h3 {
+    color: #3b3b3b;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  ul.homepage-featured-work {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  li.individual-featured-work {
+    float: left;
+    margin-right: 10px;
+    }
