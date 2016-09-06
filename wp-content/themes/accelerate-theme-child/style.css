@@ -146,3 +146,207 @@ div.case-study-images img {
     float: left;
     margin-right: 10px;
     }
+
+
+/*Contact Page*/
+
+div#content {
+  width: 66%;
+  margin: auto;
+
+  }
+
+label {
+color: #3b3b3b;
+font-family:  'Monteserrat', sans-serif;
+font-weight: normal;
+font-size: 14px;
+}
+
+p {
+  color: #3b3b3b;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+input#ninja_forms_field_4 {
+  width: 33%;
+  height: 60px;
+  float: right;
+  font-family:  'Monteserrat', sans-serif;
+  font-weight: bold;
+  background-color: #45ac9d;
+  color: white;
+}
+
+div#ninja_forms_field_1_div_wrap {
+  float: left;
+  margin: 25 0 60 0;
+  padding-right: 15px;
+  width: 50%;
+}
+
+div#ninja_forms_field_2_div_wrap {
+  float: right;
+  margin: 25 0 60 0;
+  padding-left: 15px;
+  width: 50%;
+}
+
+label#ninja_forms_field_3_label {
+  display: inline-block;
+}
+
+div#ninja_forms_form_1_response_msg p {
+  color: #45ac9d;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+
+
+/*About Page*/
+.page-about {
+    background: url("http://localhost:8888/accelerate/wp-content/uploads/2016/09/taxi-about.png") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 300px;
+}
+
+div#content {
+  margin: auto;
+  width: 960px;
+  height: auto;
+}
+
+h4 {
+  font-family:  'Monteserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3a3939;
+}
+
+h2 {
+  font-family:   'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #3b3b3b;
+}
+
+p {
+    font-family:   'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3b3b3b;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutpage-hero p{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;;
+  font-size: 25px;
+  line-height: 35px;
+  display: inline-block;
+  margin: 10% 20%;
+}
+
+.our-services {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.first, .second, .third, .fourth {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.fourth {
+  border-bottom: solid #e1e1e1 1px;
+  padding-bottom: 30px;
+}
+
+.fifth {
+margin-top: 20px;
+padding: 25px 0px 30px 0px;
+}
+
+
+.content-first, .content-third {
+  float: right;
+  width: 720px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-second, .content-fourth {
+  float: left;
+  width: 720px;
+  margin: 0px;
+  padding: 0px
+}
+
+.content-fifth {
+  float: left;
+  width: 500px;
+  margin: 0px;
+  padding: 0px
+}
+.content-fifth h2{
+  margin: 0px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.bullseye, .like {
+  float: left;
+  width: 220px;
+  margin: 0px;
+  padding-top: : 50px;
+}
+
+.atom, .wand {
+  float: right;
+  width: 220px;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+.contact-us {
+  float: right;
+  width: 200px;
+  padding-right: 130px;
+  }
+
+.button {
+  width: 200px;
+  height: 50px;
+  padding: 15px 40px;
+  margin: 0px;
+}
+
+
+/* 404 Page */
+
+.marge {
+  float: left;
+  width: 480px;
+  margin: 15px;
+}
+
+.whoops {
+  float:right;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.whoops h2 {
+  color: #45ac9d;
+}
