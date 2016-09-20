@@ -31,11 +31,12 @@
 
 #masthead nav ul li {
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 30px 0 0;
 }
 
 .blog-post {
-  width: 50%;
+  width: 48%;
+  float: left;
 }
 
 .blog-post h4 {
@@ -58,6 +59,49 @@
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+/*Front Page*/
+
+.twitter {
+  float: left;
+  width: 48%;
+}
+.twitter .widget-title {
+    font-size: 16px;
+    font-family: 'Monteserrat', sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 36px 0 48px 0;
+    padding-top: 25px;
+}
+
+.tweets a {
+  display: block;
+  font-size: 24px;
+  font-family: 'Monteserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.twitter li{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3b3b3b;
+  margin: 0px;
+  padding: 0px;
+}
+
+.twitter a.follow-us-link {
+    font-size: 18px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+    padding: 0px 40px;
 }
 
 /*Case Studies */
@@ -349,4 +393,13 @@ padding: 25px 0px 30px 0px;
 
 .whoops h2 {
   color: #45ac9d;
+}
+
+
+
+/*MailChimp Widget*/
+form.mc4wp-form input[type=submit]{
+  background-color: #45ac9d;
+  margin-top: 10px;
+  color: white;
 }
